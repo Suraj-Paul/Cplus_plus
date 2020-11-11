@@ -9,9 +9,17 @@ using namespace std;
 int main() {
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */
 
-    int arr[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-    cout<<arr[0];
+    int N;
+    cin >> N;
+    int arr[N];
+    for (int j = 0; j < N; j++){
+        cin >> arr[j];
+    }
 
-      
-    return 0;
+    for (int i = 0; i < 10; i++)
+    {
+        cout << arr[i] << endl;
+    }
+
+        return 0;
 }
