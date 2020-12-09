@@ -6,6 +6,7 @@ int main()
     int n;
     cin >> n;
     int arr[n];
+    // Taking input from user
     for (int i = 0; i < n;i++){
         cin >> arr[i];
     }
@@ -19,7 +20,7 @@ int main()
         }
         arr[j + 1] = current;
     }
-
+    // Printing the sorted elements
     for (int i = 0; i < n;i++){
         cout << arr[i] << " ";
     }
