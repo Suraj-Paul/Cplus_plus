@@ -1,4 +1,4 @@
-// Hpw many numbers up to n are divisible by c1 and c2 and c1,c2 both ?
+// How many numbers up to n are divisible by c1 and c2 and c1,c2 both ?
 #include<iostream>
 using namespace std;
 
