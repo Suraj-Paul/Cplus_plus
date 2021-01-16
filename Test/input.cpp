@@ -1,15 +1,17 @@
-#include<iostream>
+// Life, The Universe and Everything
+// #codeChef1
+#include <iostream>
 using namespace std;
 
-int main(){
-    int m,i=1;
-    
-    while(i>0){
-        cin >> m;
+int main()
+{
+    int m;
+    cin >> m;
+    while (m != 42 && m > -100 && m < 100)
+    {
 
-        if(m==42){
-            break;
-        }        
+        cout << m;
+        cin >> m;
     }
 
     return 0;

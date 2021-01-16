@@ -1,3 +1,4 @@
+// swaping two numbers with the help of three veriable
 #include<iostream>
 #include <stdio.h> 
 #include<conio.h>

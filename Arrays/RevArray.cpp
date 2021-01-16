@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+
 void reverseArray(int arr[],int start,int end){
     while(start<end)
     {
@@ -22,7 +23,7 @@ void printArray(int arr[], int length){
      cout << "Enter the number of element";
      cin >> N;
      int arr[N];
-     cout << "Enter the elements into the array :";
+     cout << "Enter elements into the array :";
      for (int x = 0;x<N;x++){
          cin >> arr[x];
      }

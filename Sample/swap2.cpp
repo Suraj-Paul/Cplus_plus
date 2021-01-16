@@ -1,3 +1,4 @@
+// swap without third variable
 #include<iostream>
 #include <stdio.h> 
 #include<conio.h>
@@ -9,11 +10,11 @@ int main()
     cout << "Enter Two numbers : ";
     cin >> num1 >> num2;
 
-    num1 = num2 + num1;
-    num1 = num1 - num2;
+    num2 = num2 + num1;
+    num1 = num2 - num1;
     num2 = num2 - num1;
 
-    cout << num1<<num2;
+    cout << num1 << num2;
 
     return 0;
 } 
